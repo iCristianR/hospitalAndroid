@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Paciente.Paciente_Registro">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="REGISTRO PACIENTES"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <EditText
+        android:id="@+id/txtCedulaPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Cedula de Ciudadania"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNombrePac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtApellidoPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEdadPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtCorreoPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese E-Mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtTelefonoPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Telefono"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtContraPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtContraPacConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirme Contraseña"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija una pregunta de seguridad:"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/spinnerPreguntasPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtRespuestaPac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Respuesta Seguridad"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

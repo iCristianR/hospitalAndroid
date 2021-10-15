@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firebase_citas">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirebaseCitas">
+
+        <activity android:name=".Paciente.Paciente_Visita" /> <!-- MEDICO -->
+        <activity android:name=".Medico.Medico_Restablecer" />
+        <activity
+            android:name=".Medico.Medico_listaHC"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Medico.Medico_VerHC" />
+        <activity android:name=".Medico.Medico_Visitas" />
+        <activity android:name=".Medico.Medico_Diagnostico" />
+        <activity android:name=".Medico.Medico_HC" />
+        <activity
+            android:name=".Medico.Medico_ListaVisitas"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Medico.Medico_HCPDF" />
+        <activity android:name=".Medico.Medico_Perfil" />
+        <activity android:name=".Medico.Medico_Principal" />
+        <activity
+            android:name=".Medico.Medico_Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" /> <!-- PACIENTE -->
+        <activity android:name=".Paciente.Paciente_AgendarVisita" />
+        <activity android:name=".Paciente.Paciente_CancelarVisita" />
+        <activity
+            android:name=".Paciente.Paciente_ListaVisitas"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity
+            android:name=".Paciente.Paciente_Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".Paciente.Paciente_Principal"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Paciente.Paciente_Restablecer" />
+        <activity android:name=".Paciente.Paciente_Perfil" />
+        <activity
+            android:name=".Paciente.Paciente_ListaEspecialidades"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Paciente.Paciente_Registro" /> <!-- ADMIN -->
+        <activity android:name=".Admin.Admin_CrudDiagnostico" />
+        <activity
+            android:name=".Admin.Admin_Lista_HC"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Admin.Admin_CrudVisita" />
+        <activity
+            android:name=".Admin.Admin_Principal1"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Admin.Admin_CrudHC" />
+        <activity android:name=".Admin.Admin_Perfil" />
+        <activity android:name=".Admin.Admin_Restablecer" />
+        <activity android:name=".Admin.Admin_Reporte" />
+        <activity android:name=".Admin.Admin_CrudEspecialidad" />
+        <activity android:name=".Admin.Admin_CrudPaciente" />
+        <activity android:name=".Admin.Admin_CrudMedico" />
+        <activity android:name=".Admin.Admin_CrudAdmin" />
+        <activity
+            android:name=".Admin.Admin_Principal"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Admin.Admin_Registro" />
+        <activity
+            android:name=".Admin.Admin_Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" /> <!-- MAIN -->
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

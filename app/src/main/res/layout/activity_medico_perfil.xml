@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:gravity="center_horizontal"
+    tools:context=".Medico.Medico_Perfil">
+
+    <TextView
+        android:id="@+id/textView111"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="PERFIL"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView112"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cedula"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtPCedulaMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView113"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtPNombreMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView114"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellido"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtPApellidoMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView115"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtPEdadMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView116"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtPCorreoMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView117"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telefono"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtPTelefonoMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView120"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Especialidad"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtPEspecialidadMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija pregunta de seguridad:"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinnerPPreguntasMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtPRespuestaMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView119"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/txtPContraMed"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+</LinearLayout>

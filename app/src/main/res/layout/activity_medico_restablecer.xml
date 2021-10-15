@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="26dp"
+    android:gravity="center_horizontal"
+    tools:context=".Medico.Medico_Restablecer">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/contra" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="RECUPERACION CONTRASEÑA"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtRCorreoMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese E-Mail"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija pregunta de seguridad:"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <Spinner
+        android:id="@+id/spinnerRPreguntasMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtRRespuestaMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Respuesta"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnRContraMed"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="RECUPERAR"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:id="@+id/lblRContraMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asigne una nueva contraseña:"
+        android:textColor="#000000"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/txtRContraMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese una nueva contraseña"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtRContraConfMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirme la contraseña"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:inputType="textPassword" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:id="@+id/btnRGuardarMed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".Admin.Admin_Registro">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="REGISTRO ADMIN"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtCedulaAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Cedula de Ciudadania"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtNombreAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtApellidoAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Apellido"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtEdadAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Edad"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtCorreoAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese E-Mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtTelefonoAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Telefono"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/txtContraAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Contraseña"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/txtContraAdmConf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Confirme Contraseña"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Elija una pregunta de seguridad:"
+        android:textColor="#000000" />
+
+    <Spinner
+        android:id="@+id/spinnerPreguntasAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/txtSeguridadAdm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ingrese Pregunta Seguridad"
+        android:inputType="textPersonName" />
+
+</LinearLayout>

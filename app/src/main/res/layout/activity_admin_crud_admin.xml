@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:gravity="center"
+    tools:context=".Admin.Admin_CrudAdmin">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:rowCount="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Cedula"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtCACedula"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Nombre"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtCANombre"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Apellido"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtCAApellido"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Edad"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtCAEdad"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Correo"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtCACorreo"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="textEmailAddress" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Telefono"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtCATelefono"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Elija pregunta de seguridad"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+            <Spinner
+                android:id="@+id/spinnerCAPreguntas"
+                android:layout_width="185dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/txtCARespuesta"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="48dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Contraseña"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtCAContra"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:background="@drawable/custom_edittext"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:inputType="textPassword" />
+        </LinearLayout>
+
+    </GridLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="LISTA ADMINS"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <SearchView
+        android:id="@+id/searchViewCA"
+        android:layout_width="320dp"
+        android:layout_height="40dp" />
+
+    <ListView
+        android:id="@+id/listViewCA"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

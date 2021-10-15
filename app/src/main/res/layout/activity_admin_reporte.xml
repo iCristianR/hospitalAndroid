@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".Admin.Admin_Reporte">
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REPORTES"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView170"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Tipo Usuario"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/spnRepTipoUsuario"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Filtro Usuarios"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/spnRepFiltroUsuarios"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/spnRepFiltroUsuarios2"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView173"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Filtro Tiempo"
+                android:textColor="#000000" />
+
+            <Spinner
+                android:id="@+id/spnRepFiltroTiempo"
+                android:layout_width="180dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblRepFechaInicio"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fecha Inicial"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtRepFechaInicio"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblRepFechaFinal"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Fecha Final"
+                android:textColor="#000000" />
+
+            <EditText
+                android:id="@+id/txtRepFechaFinal"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:background="@drawable/custom_edittext"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp" />
+
+        </LinearLayout>
+
+    </GridLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <Button
+        android:id="@+id/btnRepAplicar"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="Aplicar" />
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChartReportes"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

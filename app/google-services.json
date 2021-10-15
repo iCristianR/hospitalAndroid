@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "809422719317",
+    "firebase_url": "https://fir-citas-96469.firebaseio.com",
+    "project_id": "fir-citas-96469",
+    "storage_bucket": "fir-citas-96469.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:809422719317:android:b8ddb7145c0b1e895247dc",
+        "android_client_info": {
+          "package_name": "com.example.firebase_citas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "809422719317-i4sfcfbbgilmdaa6nk0crsech77dpvih.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_citas",
+            "certificate_hash": "25255e046765835977faf6df4249f0480ee9e69a"
+          }
+        },
+        {
+          "client_id": "809422719317-uchd85ag5ehgdgf424mrnklue9cklbcr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfYzQqfIjhI8w6qJTGU8gJUBaYee4pe-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "809422719317-uchd85ag5ehgdgf424mrnklue9cklbcr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
